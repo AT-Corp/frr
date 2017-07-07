@@ -1969,11 +1969,11 @@ AC_CACHE_VAL(ac_cv_htonl_works,
 )
 AC_MSG_RESULT($ac_cv_htonl_works)
 
-AC_CONFIG_FILES([Makefile lib/Makefile qpb/Makefile zebra/Makefile ripd/Makefile 
+AC_CONFIG_FILES([Makefile lib/Makefile qpb/Makefile zebra/Makefile ripd/Makefile
 	  ripngd/Makefile bgpd/Makefile ospfd/Makefile watchfrr/Makefile
 	  ospf6d/Makefile ldpd/Makefile isisd/Makefile vtysh/Makefile
 	  doc/Makefile ospfclient/Makefile tests/Makefile m4/Makefile
-          bgpd/rfp-example/rfptest/Makefile bgpd/rfp-example/librfp/Makefile
+	  bgpd/rfp-example/rfptest/Makefile bgpd/rfp-example/librfp/Makefile
 	  babeld/Makefile
 	  pimd/Makefile
 	  eigrpd/Makefile
@@ -1983,7 +1983,7 @@ AC_CONFIG_FILES([Makefile lib/Makefile qpb/Makefile zebra/Makefile ripd/Makefile
 	  pkgsrc/Makefile
 	  python/Makefile
 	  fpm/Makefile
-	  redhat/frr.spec 
+	  redhat/frr.spec
 	  snapcraft/Makefile
 	  snapcraft/snapcraft.yaml
 	  lib/version.h
@@ -2039,3 +2039,4 @@ zebra protobuf enabled  : ${have_protobuf:-no}
 
 The above user and group must have read/write access to the state file
 directory and to the config files in the config file directory."
+
